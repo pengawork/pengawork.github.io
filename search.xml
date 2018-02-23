@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[hexo-theme-nayo]]></title>
+      <url>/2018/02/08/hexo-theme-nayo/</url>
+      <content type="html"><![CDATA[<p>Hello World. <a href="https://github.com/Lemonreds/hexo-theme-Nayo" target="_blank" rel="noopener">nayo</a>,a concise theme for <a href="https://hexo.io" target="_blank" rel="noopener">hexo</a>. </p>
+<a id="more"></a>
+<h1 id="Issues-常见问题"><a href="#Issues-常见问题" class="headerlink" title="Issues 常见问题"></a>Issues 常见问题</h1><h2 id="如何开启站内搜索"><a href="#如何开启站内搜索" class="headerlink" title="如何开启站内搜索"></a>如何开启站内搜索</h2><p>站内搜索集成了 <a href="https://github.com/PaicHyperionDev/hexo-generator-search" target="_blank" rel="noopener">hexo-generator-search</a> 。</p>
+<p>首先通过 npm 安装 hexo-generator-search :<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">npm install hexo-generator-search --save</div></pre></td></tr></table></figure></p>
+<p>然后在根目录下配置文件_config.yml新增:<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">search:</div><div class="line">  path: search.xml</div><div class="line">  field: post</div></pre></td></tr></table></figure></p>
+<p>path，生成XML的路径，值唯一.<br>field，全局检索的区间，可以是post/page/all.</p>
+<h2 id="如何建立其他页面"><a href="#如何建立其他页面" class="headerlink" title="如何建立其他页面"></a>如何建立其他页面</h2><p>Hexo 默认不生成 categories/tags/about 等页面,需要自己创建页面.</p>
+<p>1 新建页面<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">cd yourblog</div><div class="line">hexo new page categories or tags or about</div></pre></td></tr></table></figure></p>
+<p>2 增加 layout 到新建页面文件夹的 index.md </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">---</div><div class="line">title: categories/tags/about</div><div class="line">date: 2017-10-26 22:19:49</div><div class="line">layout: category or tag or about</div><div class="line">---</div></pre></td></tr></table></figure>
+<h1 id="Other-其他"><a href="#Other-其他" class="headerlink" title="Other 其他"></a>Other 其他</h1><h2 id="问题和建议"><a href="#问题和建议" class="headerlink" title="问题和建议"></a>问题和建议</h2><p>如果你遇到了问题或者有更好的建议 <a href="https://github.com/Lemonreds/hexo-theme-Nayo/issues" target="_blank" rel="noopener">Open an issue</a>。<br>当然如果你还能点个 <a href="https://github.com/Lemonreds/hexo-theme-Nayo" target="_blank" rel="noopener">star</a> 的话 就非常的可爱和谢谢啦  :)</p>
+<h2 id="关于主题名字"><a href="#关于主题名字" class="headerlink" title="关于主题名字"></a>关于主题名字</h2><p>来自歌曲 &lt;东京不太热&gt; -封茗囧菌 </p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="300" height="80" src="//music.163.com/outchain/player?type=2&id=34723470&auto=0&height=66"></iframe>]]></content>
+      
+        <categories>
+            
+            <category> theme </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Nayo </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[文章排版]]></title>
+      <url>/2017/11/10/Markdown/</url>
+      <content type="html"><![CDATA[<p>gallery post:<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">title: 文章排版</div><div class="line">date: 2017-11-10 23:30:04</div><div class="line">photos:</div><div class="line">- /assets/01.jpg</div><div class="line">- /assets/02.jpg</div><div class="line">- /assets/03.jpg</div><div class="line">- /assets/04.jpg</div></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<h1 id="滕王阁序"><a href="#滕王阁序" class="headerlink" title="滕王阁序"></a>滕王阁序</h1><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>豫章故郡，洪都新府。星分翼轸，地接衡庐。襟三江而带五湖，控蛮荆而引瓯越。物华天宝，龙光射牛斗之墟；人杰地灵，徐孺下陈蕃之榻。雄州雾列，俊采星驰。台隍枕夷夏之交，宾主尽东南之美。都督阎公之雅望，棨戟遥临；宇文新州之懿范，襜帷暂驻。十旬休假，胜友如云；千里逢迎，高朋满座。腾蛟起凤，孟学士之词宗；紫电青霜，王将军之武库。家君作宰，路出名区；童子何知，躬逢胜饯。</p>
+<p>时维九月，序属三秋。潦水尽而寒潭清，烟光凝而暮山紫。俨骖騑于上路，访风景于崇阿；临帝子之长洲，得天人之旧馆。层峦耸翠，上出重霄；飞阁流丹，下临无地。鹤汀凫渚，穷岛屿之萦回；桂殿兰宫，即冈峦之体势。</p>
+<p>披绣闼，俯雕甍，山原旷其盈视，川泽纡其骇瞩。闾阎扑地，钟鸣鼎食之家；舸舰迷津，青雀黄龙之舳。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。</p>
+<p>遥襟甫畅，逸兴遄飞。爽籁发而清风生，纤歌凝而白云遏。睢园绿竹，气凌彭泽之樽；邺水朱华，光照临川之笔。四美具，二难并。穷睇眄于中天，极娱游于暇日。天高地迥，觉宇宙之无穷；兴尽悲来，识盈虚之有数。望长安于日下，目吴会于云间。地势极而南溟深，天柱高而北辰远。关山难越，谁悲失路之人？萍水相逢，尽是他乡之客。怀帝阍而不见，奉宣室以何年？</p>
+<p>嗟乎！时运不齐，命途多舛。冯唐易老，李广难封。屈贾谊于长沙，非无圣主；窜梁鸿于海曲，岂乏明时？所赖君子见机，达人知命。老当益壮，宁移白首之心？穷且益坚，不坠青云之志。酌贪泉而觉爽，处涸辙以犹欢。北海虽赊，扶摇可接；东隅已逝，桑榆非晚。孟尝高洁，空余报国之情；阮籍猖狂，岂效穷途之哭！</p>
+<p>勃，三尺微命，一介书生。无路请缨，等终军之弱冠；有怀投笔，慕宗悫之长风。舍簪笏于百龄，奉晨昏于万里。非谢家之宝树，接孟氏之芳邻。他日趋庭，叨陪鲤对；今兹捧袂，喜托龙门。杨意不逢，抚凌云而自惜；钟期既遇，奏流水以何惭？<br>呜乎！胜地不常，盛筵难再；兰亭已矣，梓泽丘墟。临别赠言，幸承恩于伟饯；登高作赋，是所望于群公。敢竭鄙怀，恭疏短引；一言均赋，四韵俱成。请洒潘江，各倾陆海云尔：</p>
+<p>滕王高阁临江渚，佩玉鸣鸾罢歌舞。<br>画栋朝飞南浦云，珠帘暮卷西山雨。<br>闲云潭影日悠悠，物换星移几度秋。<br>阁中帝子今何在？槛外长江空自流。</p>
+<h1 id="The-Furthest-Distance"><a href="#The-Furthest-Distance" class="headerlink" title="The Furthest Distance"></a>The Furthest Distance</h1><h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><p>The furthest distance in the world Is not between life and death<br>But when I stand in front of you Yet you don’t know that I love you.<br>The furthest distance in the world Is not when I stand in front of you<br>Yet you can’t see my love But when undoubtly knowing the love from both<br>Yet cannot be together. </p>
+<p>The furthest distance in the world Is not being apart while being in love<br>But when I plainly cannot resist the yearning Yet pretending you have never been in my heart.<br>The furthest distance in the world Is not struggling against the tides<br>But using one’s indifferent heart To dig an uncrossable river</p>
+<p>For the one who loves you .</p>
+<h1 id="日本語の文章のテスト"><a href="#日本語の文章のテスト" class="headerlink" title="日本語の文章のテスト"></a>日本語の文章のテスト</h1><h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><p>私は昨日ついにその助力家というのの上よりするたなけれ。</p>
+<p>最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。</p>
+<p>がたを知っないはずも同時に九月をいよいよたありた。</p>
+<p>もっと槙さんにぼんやり金少し説明にえた自分大した人私か影響にというお関係たうませないが、この次第も私か兄具合に使うて、槙さんののに当人のあなたにさぞご意味と行くて私個人が小尊敬を聴いように同時に同反抗に集っだうて、いよいよまず相当へあっうからいだ事をしでなけれ。</p>
+<blockquote>
+<p>それでそれでもご時日をしはずはたったいやと突き抜けるますて、その元がは行ったてという獄を尽すていけですた。</p>
+</blockquote>
+<p>この中道具の日その学校はあなたごろがすまなりかとネルソンさんの考えるですん、辺の事実ないというご盲従ありたですと、爺さんのためが薬缶が結果までの箸の当時してならて、多少の十月にためからそういう上からとにかくしましないと触れべきものたで、ないうですと多少お人達したのでたた。</p>
+<p><em>From <a href="http://lipsum.sugutsukaeru.jp/index.cgi" target="_blank" rel="noopener">すぐ使えるダミーテキスト - 日本語 Lorem ipsum</a></em></p>
+<h1 id="字符效果等"><a href="#字符效果等" class="headerlink" title="字符效果等"></a>字符效果等</h1><hr>
+<h3 id="字符效果"><a href="#字符效果" class="headerlink" title="字符效果"></a>字符效果</h3><p><del>删除线</del><br><em>斜体字</em>      <em>斜体字</em><br><strong>粗体</strong>  <strong>粗体</strong><br><strong><em>粗斜体</em></strong> <strong><em>粗斜体</em></strong></p>
+<p>上标：X<sub>2</sub>，下标：O<sup>2</sup></p>
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><blockquote>
+<p>真正的科学家应当是个幻想家；谁不是幻想家，谁就只能把自己称为实践家。 —— 巴尔扎克</p>
+<p>关雎<br>先秦：佚名<br>关关雎鸠，在河之洲。窈窕淑女，君子好逑。<br>参差荇菜，左右流之。窈窕淑女，寤寐求之。<br>求之不得，寤寐思服。悠哉悠哉，辗转反侧。<br>参差荇菜，左右采之。窈窕淑女，琴瑟友之。<br>参差荇菜，左右芼之。窈窕淑女，钟鼓乐之。</p>
+</blockquote>
+<h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p><a href="http://localhost/" target="_blank" rel="noopener">普通链接</a></p>
+<p>直接链接：<a href="https://github.com" target="_blank" rel="noopener">https://github.com</a></p>
+<h3 id="代码高亮"><a href="#代码高亮" class="headerlink" title="代码高亮"></a>代码高亮</h3><figure class="highlight c"><table><tr><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></div><div class="line"><span class="function"></span>&#123;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"Hello World!/n"</span>);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></div><div class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</div><div class="line">  </div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></div><div class="line"><span class="function"></span>&#123;</div><div class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"Hello,World!\n"</span>;</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">mate</span> <span class="attr">charest</span>=<span class="string">"utf-8"</span> /&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello world!<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello world!<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span> </span>&#123;	</div><div class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[]agrs)</span></span></div><div class="line"><span class="function">    </span>&#123;</div><div class="line">      System.out.println(<span class="string">"HelloWorld!"</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>无序列表</p>
+<ul>
+<li>列表一</li>
+<li>列表二</li>
+<li>列表三     </li>
+</ul>
+<p>有序列表 </p>
+<ol>
+<li>第一行  <ul>
+<li>1<ul>
+<li>1.1</li>
+<li>1.2<ul>
+<li>1.33</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+</ul>
+</li>
+<li>第二行<ul>
+<li>A</li>
+<li>B</li>
+<li>C</li>
+</ul>
+</li>
+<li>第三行</li>
+</ol>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><table>
+<thead>
+<tr>
+<th>水果</th>
+<th style="text-align:right">价格</th>
+<th style="text-align:center">数量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>香蕉</td>
+<td style="text-align:right">$1</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td>苹果</td>
+<td style="text-align:right">$1</td>
+<td style="text-align:center">6</td>
+</tr>
+<tr>
+<td>草莓</td>
+<td style="text-align:right">$1</td>
+<td style="text-align:center">7</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      
+        <categories>
+            
+            <category> theme </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Nayo </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Banner Post]]></title>
+      <url>/2013/12/26/Banner-Post/</url>
+      <content type="html"><![CDATA[<p>Banner post:<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">title: Banner Post</div><div class="line">date: 2013-12-26 00:16:18</div><div class="line">banner: /assets/05.jpg</div></pre></td></tr></table></figure></p>
+<p><em>From <a href="http://wallbase.cc" target="_blank" rel="noopener">Wallbase.cc</a></em></p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>/2013/12/25/no-title/</url>
+      <content type="html"><![CDATA[<p>This post doesn’t have a title. Make sure it’s accessible.</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Excerpts]]></title>
+      <url>/2013/12/25/excerpts/</url>
+      <content type="html"><![CDATA[<p>The following contents should be invisible in home/archive page.</p>
+<a id="more"></a>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.</p>
+<p>Sed lorem felis, congue non fringilla eu, aliquam eu eros. Curabitur orci libero, mollis sed semper vitae, adipiscing in lectus. Aenean non egestas odio. Donec sollicitudin nisi quis lorem gravida, in pharetra mauris fringilla. Duis sit amet faucibus dolor, id aliquam neque. In egestas, odio gravida tempor dictum, mauris felis faucibus purus, sit amet commodo lacus diam vitae est. Ut ut quam eget massa semper sodales. Aenean non ipsum cursus, blandit lectus in, ornare odio. Curabitur ultrices porttitor vulputate.</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Videos]]></title>
+      <url>/2013/12/25/videos/</url>
+      <content type="html"><![CDATA[<p>This is a video test post.</p>
+<p><strong>Youtube</strong></p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/TIbZDRXM-Tg" frameborder="0" allowfullscreen></iframe></div>
+<p><strong>Vimeo</strong></p>
+<div class="video-container"><iframe src="//player.vimeo.com/video/82090131" frameborder="0" allowfullscreen></iframe></div>]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Tag Plugins]]></title>
+      <url>/2013/12/25/tag-plugins/</url>
+      <content type="html"><![CDATA[<p>This post is used for testing tag plugins. See <a href="http://zespia.tw/hexo/docs/tag-plugins.html" target="_blank" rel="noopener">docs</a> for more info.<br><a id="more"></a></p>
+<h1 id="Block-Quote"><a href="#Block-Quote" class="headerlink" title="Block Quote"></a>Block Quote</h1><h3 id="Normal-blockquote"><a href="#Normal-blockquote" class="headerlink" title="Normal blockquote"></a>Normal blockquote</h3><blockquote>
+<p>Praesent diam elit, interdum ut pulvinar placerat, imperdiet at magna.</p>
+</blockquote>
+<h3 id="Quote-from-a-book"><a href="#Quote-from-a-book" class="headerlink" title="Quote from a book"></a>Quote from a book</h3><blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
+<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
+<h3 id="Quote-from-Twitter"><a href="#Quote-from-Twitter" class="headerlink" title="Quote from Twitter"></a>Quote from Twitter</h3><blockquote><p>NEW: DevDocs now comes with syntax highlighting. <a href="http://devdocs.io" target="_blank" rel="noopener">http://devdocs.io</a></p>
+<footer><strong>@DevDocs</strong><cite><a href="https://twitter.com/devdocs/status/356095192085962752" target="_blank" rel="noopener">twitter.com/devdocs/status/356095192085962752</a></cite></footer></blockquote>
+<h3 id="Quote-from-an-article-on-the-web"><a href="#Quote-from-an-article-on-the-web" class="headerlink" title="Quote from an article on the web"></a>Quote from an article on the web</h3><blockquote><p>Every interaction is both precious and an opportunity to delight.</p>
+<footer><strong>Seth Godin</strong><cite><a href="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html" target="_blank" rel="noopener">Welcome to Island Marketing</a></cite></footer></blockquote>
+<h1 id="Code-Block"><a href="#Code-Block" class="headerlink" title="Code Block"></a>Code Block</h1><h3 id="Normal-code-block"><a href="#Normal-code-block" class="headerlink" title="Normal code block"></a>Normal code block</h3><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">alert(&apos;Hello World!&apos;);</div></pre></td></tr></table></figure>
+<h3 id="With-caption"><a href="#With-caption" class="headerlink" title="With caption"></a>With caption</h3><figure class="highlight plain"><figcaption><span>Array.map</span></figcaption><table><tr><td class="code"><pre><div class="line">array.map(callback[, thisArg])</div></pre></td></tr></table></figure>
+<h3 id="With-caption-and-URL"><a href="#With-caption-and-URL" class="headerlink" title="With caption and URL"></a>With caption and URL</h3><figure class="highlight plain"><figcaption><span>.compact</span><a href="http://underscorejs.org/#compact" target="_blank" rel="noopener">Underscore.js</a></figcaption><table><tr><td class="code"><pre><div class="line">.compact([0, 1, false, 2, ‘’, 3]);</div><div class="line">=&gt; [1, 2, 3]</div></pre></td></tr></table></figure>
+<h3 id="With-marked-lines"><a href="#With-marked-lines" class="headerlink" title="With marked lines"></a>With marked lines</h3><p>Line 1,7-8,10 should be marked with different color.</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><div class="line marked"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">'http'</span>);</div><div class="line"></div><div class="line"><span class="keyword">const</span> hostname = <span class="string">'127.0.0.1'</span>;</div><div class="line"><span class="keyword">const</span> port = <span class="number">1337</span>;</div><div class="line"></div><div class="line">http.createServer(<span class="function">(<span class="params">req, res</span>) =&gt;</span> &#123;</div><div class="line marked">  res.writeHead(<span class="number">200</span>, &#123; <span class="string">'Content-Type'</span>: <span class="string">'text/plain'</span> &#125;);</div><div class="line marked">  res.end(<span class="string">'Hello World\n'</span>);</div><div class="line">&#125;).listen(port, hostname, () =&gt; &#123;</div><div class="line marked">  <span class="built_in">console</span>.log(<span class="string">`Server running at http://<span class="subst">$&#123;hostname&#125;</span>:<span class="subst">$&#123;port&#125;</span>/`</span>);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<p>Note: Theme’s style should support <code>.highlight.line.marked</code> (recommend to use the selection or current line color).</p>
+<h3 id="Gist"><a href="#Gist" class="headerlink" title="Gist"></a>Gist</h3><script src="//gist.github.com/996818.js"></script>
+<h3 id="jsFiddle"><a href="#jsFiddle" class="headerlink" title="jsFiddle"></a>jsFiddle</h3><iframe scrolling="no" width="100%" height="300" src="//jsfiddle.net/ccWP7/embedded/js,resources,html,css,result/light" frameborder="0" allowfullscreen></iframe>
+<h1 id="Pullquote"><a href="#Pullquote" class="headerlink" title="Pullquote"></a>Pullquote</h1><h3 id="Left"><a href="#Left" class="headerlink" title="Left"></a>Left</h3><blockquote class="pullquote left"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus molestie arcu, et fringilla mauris placerat ac. Nullam luctus bibendum risus. Ut cursus sed ipsum feugiat egestas. Suspendisse elementum, velit eu consequat consequat, augue lorem dapibus libero, eget pulvinar dolor est sit amet nulla. Suspendisse a porta tortor, et posuere mi. Pellentesque ultricies, mi quis volutpat malesuada, erat felis vulputate nisl, ac congue ante tortor ut ante. Proin aliquam sem vel mauris tincidunt, eget scelerisque tortor euismod. Nulla tincidunt enim nec commodo dictum. Mauris id sapien et orci gravida luctus id ut dui. In vel vulputate odio. Duis vel turpis molestie, scelerisque enim eu, lobortis eros. Cras at ipsum gravida, sagittis ante vel, viverra tellus. Nunc mauris turpis, elementum ullamcorper nisl pretium, ultrices cursus justo. Mauris porttitor commodo eros, ac ornare orci interdum in. Cras fermentum cursus leo sed mattis. In dignissim lorem sem, sit amet elementum mauris venenatis ac.</p>
+<h3 id="Right"><a href="#Right" class="headerlink" title="Right"></a>Right</h3><blockquote class="pullquote right"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ligula justo, lobortis sit amet semper vel, dignissim sit amet libero. Praesent ac tempus ligula. Maecenas at gravida odio. Etiam tristique volutpat lacus eu faucibus. Donec non tempus arcu. Phasellus adipiscing, mauris nec mollis egestas, ipsum nunc auctor velit, et rhoncus lorem ipsum at ante. Praesent et sem in velit volutpat auctor. Duis vel mauris nulla. Maecenas mattis interdum ante, quis sagittis nibh cursus et. Nulla facilisi. Morbi convallis gravida tortor, ut fermentum enim gravida et. Nunc vel dictum nisl, non ultrices libero. Proin vestibulum felis eget orci consectetur lobortis. Vestibulum augue nulla, iaculis vitae augue vehicula, dignissim ultrices libero. Sed imperdiet urna et quam ultrices tincidunt nec ac magna. Etiam vel pharetra elit.</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[www.google.com]]></title>
+      <url>/2013/12/24/link-post-without-title/</url>
+      <content type="html"><![CDATA[<p>This is a link post without a title. The title should be the link with or without protocol. Clicking on the link should open <a href="http://www.google.com/" target="_blank" rel="noopener">Google</a> in a new tab or window.</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[日本語テスト]]></title>
+      <url>/2013/12/24/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/</url>
+      <content type="html"><![CDATA[<p>This is a Japanese test post.</p>
+<p>私は昨日ついにその助力家というのの上よりするたなけれ。</p>
+<p>最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。</p>
+<p>がたを知っないはずも同時に九月をいよいよたありた。</p>
+<p>もっと槙さんにぼんやり金少し説明にえた自分大した人私か影響にというお関係たうませないが、この次第も私か兄具合に使うて、槙さんののに当人のあなたにさぞご意味と行くて私個人が小尊敬を聴いように同時に同反抗に集っだうて、いよいよまず相当へあっうからいだ事をしでなけれ。</p>
+<blockquote>
+<p>それでそれでもご時日をしはずはたったいやと突き抜けるますて、その元がは行ったてという獄を尽すていけですた。</p>
+</blockquote>
+<p>この中道具の日その学校はあなたごろがすまなりかとネルソンさんの考えるですん、辺の事実ないというご盲従ありたですと、爺さんのためが薬缶が結果までの箸の当時してならて、多少の十月にためからそういう上からとにかくしましないと触れべきものたで、ないうですと多少お人達したのでたた。</p>
+<p><em>From <a href="http://lipsum.sugutsukaeru.jp/index.cgi" target="_blank" rel="noopener">すぐ使えるダミーテキスト - 日本語 Lorem ipsum</a></em></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 测试 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[中文測試]]></title>
+      <url>/2013/12/24/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/</url>
+      <content type="html"><![CDATA[<p>This is a Chinese test post.</p>
+<p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。</p>
+<p>明月几时有？把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间？(何似 一作：何时；又恐 一作：惟 / 唯恐)<br>转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆？人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。(长向 一作：偏向)</p>
+<blockquote>
+<p>工步他始能詩的，裝進分星海演意學值例道……於財型目古香亮自和這乎？化經溫詩。只賽嚴大一主價世哥受的沒有中年即病行金拉麼河。主小路了種就小為廣不？</p>
+</blockquote>
+<p><em>From <a href="http://www.richyli.com/tool/loremipsum/" target="_blank" rel="noopener">亂數假文產生器 - Chinese Lorem Ipsum</a></em></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 测试 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.]]></title>
+      <url>/2013/12/24/long-title/</url>
+      <content type="html"><![CDATA[<p>This post has a long title. Make sure the title displayed right.</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Categories]]></title>
+      <url>/2013/12/24/categories/</url>
+      <content type="html"><![CDATA[<p>This post contains 3 categories. Make sure your theme can display all of the categories.</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Foo </category>
+            
+            <category> Bar </category>
+            
+            <category> Baz </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Link Post]]></title>
+      <url>/2013/12/24/link-post/</url>
+      <content type="html"><![CDATA[<p>This is a link post. Clicking on the link should open <a href="http://www.google.com/" target="_blank" rel="noopener">Google</a> in a new tab or window.</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Tags]]></title>
+      <url>/2013/12/24/tags/</url>
+      <content type="html"><![CDATA[<p>This post contains 3 tags. Make sure your theme can display all of the tags.</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Foo </tag>
+            
+            <tag> Bar </tag>
+            
+            <tag> Baz </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Elements]]></title>
+      <url>/2013/12/24/elements/</url>
+      <content type="html"><![CDATA[<p>The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don’t forget to redefine the style by yourself.</p>
+<hr>
+<h1 id="Heading-1"><a href="#Heading-1" class="headerlink" title="Heading 1"></a>Heading 1</h1><h2 id="Heading-2"><a href="#Heading-2" class="headerlink" title="Heading 2"></a>Heading 2</h2><h3 id="Heading-3"><a href="#Heading-3" class="headerlink" title="Heading 3"></a>Heading 3</h3><h4 id="Heading-4"><a href="#Heading-4" class="headerlink" title="Heading 4"></a>Heading 4</h4><h5 id="Heading-5"><a href="#Heading-5" class="headerlink" title="Heading 5"></a>Heading 5</h5><h6 id="Heading-6"><a href="#Heading-6" class="headerlink" title="Heading 6"></a>Heading 6</h6><hr>
+<h2 id="Paragraph"><a href="#Paragraph" class="headerlink" title="Paragraph"></a>Paragraph</h2><p>Lorem ipsum dolor sit amet, <a href="">test link</a> consectetur adipiscing elit. <strong>Strong text</strong> pellentesque ligula commodo viverra vehicula. <em>Italic text</em> at ullamcorper enim. Morbi a euismod nibh. <u>Underline text</u> non elit nisl. <del>Deleted text</del> tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.</p>
+<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. <code>Sed erat diam</code>, blandit eget felis aliquam, rhoncus varius urna. Donec tellus sapien, sodales eget ante vitae, feugiat ullamcorper urna. Praesent auctor dui vitae dapibus eleifend. Proin viverra mollis neque, ut ullamcorper elit posuere eget.</p>
+<blockquote>
+<p>Praesent diam elit, interdum ut pulvinar placerat, imperdiet at magna.</p>
+</blockquote>
+<p>Maecenas ornare arcu at mi suscipit, non molestie tortor ultrices. Aenean convallis, diam et congue ultricies, erat magna tincidunt orci, pulvinar posuere mi sapien ac magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vitae placerat mauris. Nullam laoreet ante posuere tortor blandit auctor. Sed id ligula volutpat leo consequat placerat. Mauris fermentum dolor sed augue malesuada sollicitudin. Vivamus ultrices nunc felis, quis viverra orci eleifend ut. Donec et quam id urna cursus posuere. Donec elementum scelerisque laoreet.</p>
+<h2 id="List-Types"><a href="#List-Types" class="headerlink" title="List Types"></a>List Types</h2><h3 id="Definition-List-dl"><a href="#Definition-List-dl" class="headerlink" title="Definition List (dl)"></a>Definition List (dl)</h3><dl><dt>Definition List Title</dt><dd>This is a definition list division.</dd></dl>
+
+<h3 id="Ordered-List-ol"><a href="#Ordered-List-ol" class="headerlink" title="Ordered List (ol)"></a>Ordered List (ol)</h3><ol>
+<li>List Item 1</li>
+<li>List Item 2</li>
+<li>List Item 3</li>
+</ol>
+<h3 id="Unordered-List-ul"><a href="#Unordered-List-ul" class="headerlink" title="Unordered List (ul)"></a>Unordered List (ul)</h3><ul>
+<li>List Item 1</li>
+<li>List Item 2</li>
+<li>List Item 3</li>
+</ul>
+<h2 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h2><table>
+<thead>
+<tr>
+<th>Table Header 1</th>
+<th>Table Header 2</th>
+<th>Table Header 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Division 1</td>
+<td>Division 2</td>
+<td>Division 3</td>
+</tr>
+<tr>
+<td>Division 1</td>
+<td>Division 2</td>
+<td>Division 3</td>
+</tr>
+<tr>
+<td>Division 1</td>
+<td>Division 2</td>
+<td>Division 3</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Misc-Stuff-abbr-acronym-sub-sup-etc"><a href="#Misc-Stuff-abbr-acronym-sub-sup-etc" class="headerlink" title="Misc Stuff - abbr, acronym, sub, sup, etc."></a>Misc Stuff - abbr, acronym, sub, sup, etc.</h2><p>Lorem <sup>superscript</sup> dolor <sub>subscript</sub> amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. <cite>cite</cite>. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. <acronym title="National Basketball Association">NBA</acronym> Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  <abbr title="Avenue">AVE</abbr></p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>/2013/12/24/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="http://zespia.tw/hexo" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs" target="_blank" rel="noopener">documentation</a> to learn how to use.</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
+</search>
